@@ -1,0 +1,64 @@
+/* desktop-first.css */
+
+/* Estilos para telas grandes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #178a26;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px;
+    margin: 20px 150px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f8f10;
+    color: white;
+  }
+  
+  /* Media Query para telas menores (dispositivos móveis) */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    section {
+      margin: 10px 20px;
+    }
+  
+    nav ul li {
+      margin-right: 15px;
+    }
+  }
+  
